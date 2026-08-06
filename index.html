@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Personal portfolio — maker, builder, scout." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231f3a3d'/%3E%3Ctext x='50' y='68' font-size='55' text-anchor='middle' fill='%23e07a5f' font-family='sans-serif' font-weight='700'%3EY%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Your Name<span>.</span></a>
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="maker-story.html">The Maker Story</a></li>
+          <li><a href="projects.html">Story Bank</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="scouting.html">Scouting</a></li>
+          <li><a href="journey.html">Journey</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-photo">
+          <div class="img-placeholder ratio-circle">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 20c0-3.3 3.6-6 8-6s8 2.7 8 6" stroke-linecap="round"/><circle cx="12" cy="8" r="4"/></svg>
+            <span>Your Photo</span>
+          </div>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Welcome to my portfolio</p>
+          <h1>Hi, I'm [Your Name].</h1>
+          <p class="hero-bio placeholder-text">[One-line bio goes here — e.g. "I build things with wood, metal, code, and a whole lot of curiosity."]</p>
+          <div class="hero-actions">
+            <a href="projects.html" class="btn btn-primary">View My Projects</a>
+            <a href="maker-story.html" class="btn btn-outline">Read My Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tiles">
+      <div class="container">
+        <div class="section-intro">
+          <p class="eyebrow">Explore</p>
+          <h2>Get to know my work</h2>
+        </div>
+        <div class="tiles-grid">
+
+          <a href="maker-story.html" class="tile">
+            <div class="tile-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M14 3v5h5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>The Maker Story</h3>
+            <p>The long-form story of how I got here — what got me started and what keeps me building.</p>
+            <span class="tile-link">Read more
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+
+          <a href="projects.html" class="tile">
+            <div class="tile-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+            </div>
+            <h3>Story Bank / Projects</h3>
+            <p>A collection of builds spanning mechanical, digital, fabrication, and fiber arts work.</p>
+            <span class="tile-link">Browse projects
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+
+          <a href="skills.html" class="tile">
+            <div class="tile-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 3 7l9 5 9-5-9-5Z"/><path d="M3 12l9 5 9-5M3 17l9 5 9-5"/></svg>
+            </div>
+            <h3>Skills &amp; Capabilities</h3>
+            <p>A quick-scan view of the tools, techniques, and disciplines I've picked up along the way.</p>
+            <span class="tile-link">See skills
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+
+          <a href="scouting.html" class="tile">
+            <div class="tile-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 2 8l10 6 10-6-10-6Z"/><path d="m2 8 10 6 10-6M12 14v8"/></svg>
+            </div>
+            <h3>Scouting &amp; Leadership</h3>
+            <p>Rank, leadership roles, time in the outdoors, and service given back to the community.</p>
+            <span class="tile-link">View journey
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="current-year">2026</span> Your Name. All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Story Bank</a>
+        <a href="journey.html">Journey</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
